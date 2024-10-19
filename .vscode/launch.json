@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "/Users/ajaynegi/maiora_prj/maiora_assignment:/Users/ajaynegi/maiora_prj/maiora_assignment/etl_sales_data:/Users/ajaynegi/maiora_prj/maiora_assignment/etl_sales_data/src",
+                "JAVA_HOME": "/opt/homebrew/opt/openjdk@11/"
+            }
+        },
+        {
+            "name": "Python Debugger: Python File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "/Users/ajaynegi/maiora_prj/maiora_assignment:/Users/ajaynegi/maiora_prj/maiora_assignment/etl_sales_data:/Users/ajaynegi/maiora_prj/maiora_assignment/etl_sales_data/src",
+                "JAVA_HOME": "/opt/homebrew/opt/openjdk@11/"
+            }
+        }
+    ]
+}

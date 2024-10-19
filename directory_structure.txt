@@ -1,0 +1,31 @@
+/
+    requirements.txt
+    README.md
+    .gitignore
+    __init__py
+databases/
+    sales_data.db   
+joke_api/
+    app.py 
+    __init__py
+sql_queries/
+    __init__py
+tests/
+    etl_pipeline_test.py
+    __init__py
+    api_test.py
+meta/
+    config.py
+    __init__py
+utils/
+    spark.py
+    __init__py
+test-files/
+    sales_in/
+        order_region_a.csv
+        order_region_b.csv
+src/
+    db_queries.py
+    README.md
+    etl_pipeline.py
+    __init__py

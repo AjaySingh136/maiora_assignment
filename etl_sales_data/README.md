@@ -68,7 +68,7 @@ cd etl_sales_data`
 Install the required Python dependencies and set python path and java path:
 
 `pip install -r requirements.txt`
-`export PYTHONPATH=/Users/ajaynegi/maiora_prj/maiora_assignment/etl_sales_data`
+`export PYTHONPATH="/Users/ajaynegi/maiora_prj/maiora_assignment":"/Users/ajaynegi/maiora_prj/maiora_assignment/etl_sales_data":"/Users/ajaynegi/maiora_prj/maiora_assignment/etl_sales_data/src"`
 `export JAVA_HOME="/opt/homebrew/opt/openjdk@11/"`
 
 ### **3\. Run the ETL Pipeline**
