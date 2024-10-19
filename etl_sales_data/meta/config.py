@@ -3,6 +3,9 @@
 DB_PATH = "etl_sales_data/databases/sales_data.db"
 DB_tab_name = "sales_data"
 
+Jokes_DB_PATH = "etl_sales_data/databases/stored_jokes.db"
+Jokes_DB_tab_name = "stored_jokes"
+
 # Test run for main config
 
 job_config = {
